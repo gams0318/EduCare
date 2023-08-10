@@ -1,0 +1,103 @@
+main>.courses {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 1rem auto;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.intro {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    align-items: center;
+    margin: 0 auto;
+    padding: 3rem;
+
+}
+
+.intro>.desc>h2 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.intro>.desc>p {
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+
+.courses>.card {
+    margin: 1rem;
+}
+
+/* main {
+    max-width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+} */
+
+.main {
+    background-color: rgb(215, 205, 205);
+    width: 100%;
+
+}
+
+#contact-form {
+    margin-top: 20px;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 60%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+
+.about {
+    padding-top: 1rem;
+    margin: 2rem auto;
+    width: 80%;
+    letter-spacing: 2px;
+    font-size: 1rem;
+}
+
+.contact {
+    margin: auto;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    width: 80%;
+    padding-bottom: 1rem;
+}
+
+.about>h2,
+.contact>h2 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
+
+.btn {
+    margin: 3px;
+}
