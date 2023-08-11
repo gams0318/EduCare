@@ -9,7 +9,7 @@ main>.courses {
 }
 
 .intro {
-    width: 75%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     gap: 5rem;
@@ -18,6 +18,11 @@ main>.courses {
     padding: 3rem;
 
 }
+
+.intro>.desc {
+    width: 35rem;
+}
+
 
 .intro>.desc>h2 {
     font-size: 2rem;
@@ -100,4 +105,37 @@ footer {
 
 .btn {
     margin: 3px;
+}
+
+@media screen and (max-width: 1000px) {
+
+
+    .intro>img {
+        width: 50%;
+    }
+
+    .intro>.desc {
+        width: 20rem;
+    }
+
+
+}
+
+@media screen and (max-width: 800px) {
+    .intro {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .intro>img {
+        width: 80%;
+    }
+
+    .intro>.desc {
+        width: 80%;
+    }
+
 }
